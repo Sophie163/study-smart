@@ -22,7 +22,7 @@ function App() {
       <Routes>
       <Route exact path="/" element={<Layout />}>
       <Route index element={<Home />} />  
-      <Route path="study-smart/tutors" element={<Tutors />} />
+      <Route path="tutors" element={<Tutors />} />
       <Route path="messages" element={<Messages />} /> 
       <Route path="planner" element={<Planner />} /> 
       <Route path="timer" element={<Timer />} /> 
