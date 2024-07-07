@@ -23,11 +23,11 @@ function App() {
       <Navbar />
       <Routes>  
         <Route path="/" element={<Home />} />  
-        <Route path="tutors" element={<Tutors />} />
-        <Route path="messages" element={<Messages />} /> 
-        <Route path="planner" element={<Planner />} /> 
-        <Route path="timer" element={<Timer />} /> 
-        <Route path="signin" element={<SignIn />} />        
+        <Route path="/tutors" element={<Tutors />} />
+        <Route path="/messages" element={<Messages />} /> 
+        <Route path="/planner" element={<Planner />} /> 
+        <Route path="/timer" element={<Timer />} /> 
+        <Route path="/signin" element={<SignIn />} />        
       </Routes>  
   
       </header>
