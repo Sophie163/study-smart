@@ -13,22 +13,21 @@ import Messages from "./pages/Messages";
 import Planner from './pages/Planner';
 import SignIn from './pages/SignIn';
 import Timer from './pages/Timer';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
        
-      <Routes>
-      <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />  
-      <Route path="tutors" element={<Tutors />} />
-      <Route path="messages" element={<Messages />} /> 
-      <Route path="planner" element={<Planner />} /> 
-      <Route path="timer" element={<Timer />} /> 
-      <Route path="signin" element={<SignIn />} />   
-      <Route path="home" element={<Home />} />         
-      </Route>        
+      <Navbar />
+      <Routes>  
+        <Route path="/" element={<Home />} />  
+        <Route path="tutors" element={<Tutors />} />
+        <Route path="messages" element={<Messages />} /> 
+        <Route path="planner" element={<Planner />} /> 
+        <Route path="timer" element={<Timer />} /> 
+        <Route path="signin" element={<SignIn />} />        
       </Routes>  
   
       </header>
