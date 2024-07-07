@@ -5,7 +5,7 @@ import './css/custom.min.css'
 import { Button, Alert } from 'react-bootstrap';
 
 import ReactDOM from "react-dom"; 
-import { HashRouter, Routes, Route } from "react-router-dom"; 
+import { HashRouter, Router, Routes, Route } from "react-router-dom"; 
 import Layout from "./pages/Layout"; 
 import Home from "./pages/Home"; 
 import Tutors from './pages/Tutors';
