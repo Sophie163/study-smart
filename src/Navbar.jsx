@@ -19,7 +19,7 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="mynavbar">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="/Tutors">Tutors</a>
+                                <a class="nav-link px-3" href="/study-smart/Tutors">Tutors</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-3" href="/Messages">Messages</a>
