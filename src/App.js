@@ -23,8 +23,8 @@ function App() {
       <Navbar />
       <Routes>  
         <Route path="/" element={<Home />} />  
-        <Route path="/tutors" element={<Tutors />} />
-        <Route path="/messages" element={<Messages />} /> 
+        <Route path="https://sophie163.github.io/study-smart/tutors" element={<Tutors />} />
+        <Route path="https://sophie163.github.io/study-smart/messages" element={<Messages />} /> 
         <Route path="/planner" element={<Planner />} /> 
         <Route path="/timer" element={<Timer />} /> 
         <Route path="/signin" element={<SignIn />} />        
