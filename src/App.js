@@ -20,7 +20,7 @@ function App() {
       <header className="App-header">
        
       <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route exact path="/" element={<Layout />}>
       <Route index element={<Home />} />  
       <Route path="tutors" element={<Tutors />} />
       <Route path="messages" element={<Messages />} /> 
