@@ -19,16 +19,16 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="mynavbar">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="https://sophie163.github.io/study-smart/#/Tutors">Tutors</a>
+                                <a class="nav-link px-3" href="/Tutors">Tutors</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="https://sophie163.github.io/study-smart/#/Messages">Messages</a>
+                                <a class="nav-link px-3" href="/Messages">Messages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="/Planner">Planner</a>
+                                <a class="nav-link px-3" href="study-smart/#/Planner">Planner</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="/Timer">Timer</a>
+                                <a class="nav-link px-3" href="study-smart/#/Timer">Timer</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link pl-3" href="/SignIn">Sign In</a>

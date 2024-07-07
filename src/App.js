@@ -26,8 +26,8 @@ function App() {
         <Route path="https://sophie163.github.io/study-smart/#/Tutors" element={<Tutors />} />
         <Route path="https://sophie163.github.io/study-smart/#/Messages" element={<Messages />} /> 
         <Route path="https://sophie163.github.io/study-smart/#/Planner" element={<Planner />} /> 
-        <Route path="https://sophie163.github.io/study-smart/#/Timer" element={<Timer />} /> 
-        <Route path="https://sophie163.github.io/study-smart/#/Signin" element={<SignIn />} />        
+        <Route path="/timer" element={<Timer />} /> 
+        <Route path="/signin" element={<SignIn />} />        
       </Routes>  
   
       </header>
