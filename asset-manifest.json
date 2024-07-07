@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/study-smart/static/css/main.db288db4.css",
-    "main.js": "/study-smart/static/js/main.4fc3419e.js",
+    "main.js": "/study-smart/static/js/main.b31deb40.js",
     "static/media/timer.jpeg": "/study-smart/static/media/timer.14338bcc681b92aa4e07.jpeg",
     "static/media/tutor.jpg": "/study-smart/static/media/tutor.56131dc68f4d28753593.jpg",
     "static/media/students.jpg": "/study-smart/static/media/students.83b55c5cf74716ec9388.jpg",
@@ -9,10 +9,10 @@
     "static/media/trees.jpg": "/study-smart/static/media/trees.44ec99813a7c42b14697.jpg",
     "index.html": "/study-smart/index.html",
     "main.db288db4.css.map": "/study-smart/static/css/main.db288db4.css.map",
-    "main.4fc3419e.js.map": "/study-smart/static/js/main.4fc3419e.js.map"
+    "main.b31deb40.js.map": "/study-smart/static/js/main.b31deb40.js.map"
   },
   "entrypoints": [
     "static/css/main.db288db4.css",
-    "static/js/main.4fc3419e.js"
+    "static/js/main.b31deb40.js"
   ]
 }
