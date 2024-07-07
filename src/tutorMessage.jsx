@@ -9,7 +9,7 @@ function TutorMessage() {
             </div>
                 
             <div class="col-sm-10 bg-mygreen text-start px-0">
-                <a class="nav-link" href="/Messages"><h3 className='m-0 p-0'>Name</h3></a>
+                <a class="nav-link"><h3 className='m-0 p-0'>Name</h3></a>
                 <p className='subjects m-0 p-0'>Most resent message </p>
             </div>
         </div>

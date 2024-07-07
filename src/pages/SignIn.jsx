@@ -21,7 +21,7 @@ function SignIn() {
                         <label for="pwd" class="form-label px-2 my-0"><h4>Password:</h4></label>
                         <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"/>
                     </div>
-                    <button type="submit" class="custom-primary"><a class="nav-link" href="/Home">Submit</a></button>
+                    <button type="submit" class="custom-primary"><a class="nav-link" href="/study-smart">Submit</a></button>
                     </form>
                 </div>
                 <div class="col-sm-2"></div>

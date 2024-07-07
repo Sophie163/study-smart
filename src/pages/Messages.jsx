@@ -29,7 +29,7 @@ function Messages() {
                         </div>
                             
                         <div class="col-sm-10 bg-mylightgreen text-start">
-                            <a class="nav-link" href="/Messages"><h2 className='m-0 p-0 pt-3'>Name</h2></a>
+                            <a class="nav-link"><h2 className='m-0 p-0 pt-3'>Name</h2></a>
                             <Row>
                             <Col xs={10}>
                             <p className='m-0 p-0'>Subject - Subject - Subject </p>

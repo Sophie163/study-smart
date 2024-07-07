@@ -10,7 +10,7 @@ function Tutor() {
             </div>
                 
             <div class="col-sm-10 bg-mylightgreen text-start">
-                <a class="nav-link" href="/Messages"><h3 className='m-0 p-0'>Name</h3></a>
+                <a class="nav-link" href="/study-smart/#/Messages"><h3 className='m-0 p-0'>Name</h3></a>
                 <Row>
                 <Col xs={10}>
                 <p className='subjects m-0 p-0'>Subject - Subject - Subject </p>
