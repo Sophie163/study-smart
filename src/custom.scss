@@ -21,9 +21,5 @@ $custom-theme-colors: (
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
-$primary: #d70fd7;
-$secondary: #EDBFD8;
-$blue: #d70fd7;
-
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
