@@ -5,7 +5,7 @@ import './css/custom.min.css'
 import { Button, Alert } from 'react-bootstrap';
 
 import ReactDOM from "react-dom"; 
-import { Routes, Route } from "react-router-dom"; 
+import { HashRouter, Routes, Route } from "react-router-dom"; 
 import Layout from "./pages/Layout"; 
 import Home from "./pages/Home"; 
 import Tutors from './pages/Tutors';
@@ -20,7 +20,7 @@ function App() {
       <header className="App-header">
        
       <Routes>
-      <Route exact path="/" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />  
       <Route path="tutors" element={<Tutors />} />
       <Route path="messages" element={<Messages />} /> 
