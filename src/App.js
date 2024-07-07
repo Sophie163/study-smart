@@ -5,7 +5,7 @@ import './css/custom.min.css'
 import { Button, Alert } from 'react-bootstrap';
 
 import ReactDOM from "react-dom"; 
-import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+import { HashRouter, Routes, Route } from "react-router-dom"; 
 import Layout from "./pages/Layout"; 
 import Home from "./pages/Home"; 
 import Tutors from './pages/Tutors';
@@ -18,8 +18,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-      <BrowserRouter>       
+       
       <Routes>
       <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />  
@@ -30,8 +29,7 @@ function App() {
       <Route path="signin" element={<SignIn />} />   
       <Route path="home" element={<Home />} />         
       </Route>        
-      </Routes>
-      </BrowserRouter>  
+      </Routes>  
   
       </header>
     </div>
@@ -39,9 +37,3 @@ function App() {
 }
 
 export default App;
-
-ReactDOM.render((
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
-), document.getElementById("root"));
