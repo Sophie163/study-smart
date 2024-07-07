@@ -22,7 +22,7 @@ function Navbar() {
                                 <a class="nav-link px-3" href="/Tutors">Tutors</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="/Messages">Messages</a>
+                                <a class="nav-link px-3" href="/study-smart/#/Messages">Messages</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-3" href="study-smart/#/Planner">Planner</a>
